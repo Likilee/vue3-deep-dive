@@ -13,7 +13,12 @@ const router = createRouter({
     {
       path: '/ref',
       name: 'ref',
-      component:  () => import('@/components/RefPage/RefPage.vue')
+      component:  () => import('@/pages/RefPage.vue')
+    },
+    {
+      path: '/reactive',
+      name: 'reactive',
+      component:  () => import('@/pages/ReactivePage.vue')
     },
   ]
 })

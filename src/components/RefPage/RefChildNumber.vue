@@ -3,7 +3,6 @@
     <h2 class="font-semibold text-lg">{{ title }}</h2>
     <div>{{ value }}</div>
     <button class="w-32 border rounded-md bg-slate-200" @click="handleIncrease">+ IN CHILD</button>
-
   </div>
 </template>
 
