@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'reactive',
       component:  () => import('@/pages/ReactivePage.vue')
     },
+    {
+      path: '/reactive/side-effect',
+      name: 'reactive-side-effect',
+      component: () => import('@/pages/ReactiveSideEffectPage.vue')
+    }
   ]
 })
 

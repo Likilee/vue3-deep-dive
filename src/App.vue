@@ -4,7 +4,10 @@
       <div class="border p-4 rounded-md">Ref</div>
     </RouterLink>
     <RouterLink to="/reactive">
-      <div class="border p-4 rounded-md">Reactivity</div>
+      <div class="border p-4 rounded-md">Reactive</div>
+    </RouterLink>
+    <RouterLink to="/reactive/side-effect">
+      <div class="border p-4 rounded-md">Reactive SideEffect</div>
     </RouterLink>
   </header>
 
